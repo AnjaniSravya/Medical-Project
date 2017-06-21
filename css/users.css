@@ -1,0 +1,86 @@
+/*Header Css*/
+.navbar-default{
+    background-color:beige;
+}
+ul{
+    list-style-type:none;
+}
+.navbar-nav li{
+    padding-right:50px;
+}
+.navbar-header h2{
+    padding-top: 10px;
+}
+.navbar-nav li .dropdown{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.bg-color{
+    background-color:beige;
+    padding:3% 1%;
+    margin-bottom:2%;
+}
+.dropdown-menu li{
+    padding-right:0;
+}
+/*Header Css End*/
+.nav-pills{
+    font-size:18px;
+}
+.nav-pills li{
+    width:20%;
+}
+.right-align{
+    background-color: #cfd8dc;
+    margin:2% 0;
+    padding:2%;
+    font-size:17px;
+}
+.btn-pad{
+    padding:4px 10px;
+}
+.right-align span{
+    float:right;
+    margin-right:4px;
+}
+.btn-mob{
+    display:none;
+}
+.btn-center{
+    text-align:center;
+}
+.drpdwn{
+    float:right;
+    margin-top: -0.9%;
+}
+.modal-content{
+    margin-top:20%;
+    background-color:beige;
+}
+@media (max-width:767px){
+    .navbar-header{
+        text-align:center;
+    }
+    .navbar-right{
+        padding-left:10px;
+    }
+    .right-align{
+        font-size:14px;
+    }
+    .btn-pad{
+        padding:2px 8px;
+    }
+    .nav-pills li{
+        width:47%;
+    }
+    .btn-mob{
+        display:inline-block;
+        margin:2%;
+    }
+    .btn-desk{
+        display:none;
+    }
+    .drpdwn{
+        margin-top:-2%;
+    }
+}
